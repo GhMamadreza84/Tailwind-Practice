@@ -14,6 +14,7 @@ module.exports = {
       backgroundSize: {
         fullHalf: "20% auto",
       },
+      borderWidth: { 3: "3px" },
     },
   },
   plugins: [],
