@@ -837,3 +837,13 @@ video {
   --tw-shadow-color: #ef4444;
   --tw-shadow: var(--tw-shadow-colored);
 }
+
+.shadow-red-500\/80 {
+  --tw-shadow-color: rgb(239 68 68 / 0.8);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-red-500\/10 {
+  --tw-shadow-color: rgb(239 68 68 / 0.1);
+  --tw-shadow: var(--tw-shadow-colored);
+}
