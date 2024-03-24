@@ -857,3 +857,23 @@ video {
   --tw-shadow-color: rgb(239 68 68 / 0.1);
   --tw-shadow: var(--tw-shadow-colored);
 }
+
+.shadow-blue-500 {
+  --tw-shadow-color: #3b82f6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-500\/80 {
+  --tw-shadow-color: rgb(59 130 246 / 0.8);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-500\/60 {
+  --tw-shadow-color: rgb(59 130 246 / 0.6);
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
+.shadow-blue-500\/40 {
+  --tw-shadow-color: rgb(59 130 246 / 0.4);
+  --tw-shadow: var(--tw-shadow-colored);
+}
