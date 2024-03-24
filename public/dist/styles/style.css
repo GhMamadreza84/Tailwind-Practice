@@ -625,6 +625,26 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.rounded-l-2xl {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.rounded-l-lg {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-r-\[4rem\] {
+  border-top-right-radius: 4rem;
+  border-bottom-right-radius: 4rem;
+}
+
 .border-2 {
   border-width: 2px;
 }
