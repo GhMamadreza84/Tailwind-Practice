@@ -698,6 +698,10 @@ video {
   border-width: 3px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-dashed {
   border-style: dashed;
 }
