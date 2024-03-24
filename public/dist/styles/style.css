@@ -627,6 +627,16 @@ video {
   border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
 }
 
+.divide-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(2px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(2px * var(--tw-divide-y-reverse));
+}
+
+.divide-y-reverse > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 1;
+}
+
 .divide-x-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 1;
 }
