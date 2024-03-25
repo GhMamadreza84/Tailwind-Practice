@@ -856,6 +856,21 @@ video {
   padding-right: 20rem;
 }
 
+.enabled\:hover\:py-5:hover:enabled {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.enabled\:hover\:px-7:hover:enabled {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.enabled\:active\:px-80:active:enabled {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
 .disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
