@@ -621,6 +621,14 @@ video {
   max-width: 80rem;
 }
 
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .break-words {
   overflow-wrap: break-word;
 }
@@ -778,4 +786,40 @@ video {
 .shadow-blue-500\/40 {
   --tw-shadow-color: rgb(59 130 246 / 0.4);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:py-7:hover {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.hover\:px-7:hover {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.hover\:py-5:hover {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.active\:py-12:active {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.active\:px-12:active {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.active\:px-80:active {
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
