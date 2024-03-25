@@ -826,6 +826,10 @@ video {
   transition-duration: 150ms;
 }
 
+.visited\:text-blue-500:visited {
+  color: rgb(59 130 246 );
+}
+
 .hover\:py-7:hover {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;
